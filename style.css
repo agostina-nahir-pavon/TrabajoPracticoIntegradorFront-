@@ -1,0 +1,305 @@
+html{
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.textoTitulo{
+    color: #FFFFFF;
+    font-size: 25px;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+.perfilesGlobales-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row!important;
+}
+header{
+    background-color: #454545;
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0.5rem;
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+    align-items: center;
+    justify-content: space-between;
+}
+.perfilesGlobales{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.perfilesGlobales-bloqueEnlaces{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font: 500 1.4rem;
+    margin: 1rem;
+    border: 1rem;
+}
+.perfilesGlobales-enlace{
+    color: #00FF00;
+    margin: 1rem;
+}
+.imgCodoACodo{
+    width: 7rem;
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    color: var(--bs-navbar-brand-color);
+    text-decoration: none;
+    white-space: nowrap;
+}
+.globalBanner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/ba1.jpg);
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    height: 84vh;
+    justify-content: flex-end;
+}
+.textosBanner{
+    color: #FFFFFF;
+    width: 34rem;
+    text-align: right;
+    margin-top: 2rem;
+    margin-right: 5rem;
+    height: 50%;
+    padding: 20px;
+}
+.botonBanner1{
+    --bs-btn-border-radius: var(--bs-border-radius);
+    margin: 1rem;
+    --bs-btn-color: #f8f9fa;
+    --bs-btn-border-color: #f8f9fa;
+    color: var(--bs-btn-color);
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    border-radius: var(--bs-btn-border-radius);
+    background-color: var(--bs-btn-bg);
+    --bs-btn-padding-x: 0.75rem;
+    --bs-btn-padding-y: 0.375rem;
+    padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+    --bs-btn-border-width: var(--bs-border-width);
+}
+.botonBanner2{
+    margin: 0.5rem!important;
+    --bs-btn-border-radius: var(--bs-border-radius);
+    --bs-btn-color: #f8f9fa;
+    --bs-btn-border-color: #00c040;
+    --bs-btn-bg: #00c040;
+    color: var(--bs-btn-color);
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    border-radius: var(--bs-btn-border-radius);
+    background-color: var(--bs-btn-bg);
+    --bs-btn-padding-x: 0.75rem;
+    --bs-btn-padding-y: 0.375rem;
+    padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+    --bs-btn-border-width: var(--bs-border-width);
+}
+h2{
+    font-size: calc(1.375rem + 1.5vw);
+}
+p{
+    margin: 0;
+}
+.contenedorOradores{
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tarjetasOradores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+div.card{
+    padding: 0;
+    margin: 1rem;
+}
+.badge{
+    margin: 2px;
+    background: #00aae4;
+}
+span{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-content: space-around;
+}
+.contenedorImgIsla{
+    display: flex;
+}
+.imgIslaOahu{
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    margin-top: 3rem;
+}
+.textoIslaOahu{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.b1{
+    width: 50%;
+    padding: 1rem;
+    margin-left: 2px;
+    margin-top: 3rem;
+    color: hsl(0, 0%, 100%);
+    background-color: #454545;
+}
+.contenedorFormulario{
+    display: flex;
+    margin: 1rem;
+}
+.btn{
+    --bs-btn-color: #f8f9fa;
+    --bs-btn-border-color: #f8f9fa;
+}
+.conteinerComentario{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedorformulario{
+    background-color: #8ACA5B;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 4px;
+    margin-top: 0.5rem;
+}
+.col{
+    width: 50%;
+}
+u{
+    text-decoration-style: dotted;
+}
+.boxFormulario{
+    margin-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 14rem;
+    margin-right: 14rem;
+}
+textarea{
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.75rem;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+}
+footer{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #227093;
+}
+li{
+    padding: 1rem;
+}
+h3{
+    font-size: 19px;
+    align-items: center;
+}
+.contenedorFooter{
+    list-style: none;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width:920px){
+    .perfilesGlobales-bloqueEnlaces{
+        display: none;
+    }
+
+    .perfilesGlobales{
+        --bs-navbar-padding-x: 0;
+        --bs-navbar-padding-y: 0.5rem;
+        align-items: center;
+        width: 100%;
+    }
+
+    .globalBanner{
+        justify-content: center;
+    }
+
+    .imgIslaOahu{
+        width: 100%;
+    }
+    
+    .b1{
+        width: 100%;
+        margin: 0;
+        align-items: center;
+    }
+
+    .conteinerComentario{
+        padding: 3px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .boxFormulario{
+        margin: 7px;
+        padding: 7px;
+    }
+
+    .contenedorImgIsla{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .textosBanner{
+        text-align: center;
+        padding: 20px;
+        align-items: center;
+        margin: 0%;
+    }
+
+    .perfilesGlobales{
+        margin: 0px;
+        justify-content: center;
+    }
+
+    .contenedorFooter{
+        display:block;
+        text-align: center;
+        align-items: center;
+    }
+    li, ul {
+        padding: 5px;
+    }
+}
+
+@media (max-width:600px) {
+    .globalBanner{
+        align-items: baseline;
+    }
+}
